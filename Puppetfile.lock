@@ -1,0 +1,19 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    elasticsearch/elasticsearch (0.2.4)
+      puppetlabs/stdlib (>= 3.2.0)
+    puppetlabs/apt (1.4.2)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/firewall (1.0.2)
+    puppetlabs/ntp (3.0.3)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/stdlib (4.1.0)
+
+DEPENDENCIES
+  elasticsearch/elasticsearch (>= 0)
+  puppetlabs/apt (>= 0)
+  puppetlabs/firewall (>= 0)
+  puppetlabs/ntp (>= 0)
+  puppetlabs/stdlib (>= 0)
+

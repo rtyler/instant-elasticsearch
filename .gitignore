@@ -1,0 +1,7 @@
+*.swp
+.ruby-*
+.vagrant*
+
+.librarian
+.tmp
+modules/
