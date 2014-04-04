@@ -35,7 +35,8 @@ hostname 'vagrant-#{name}';"
        # configuration to make sure that it only tries to connect to other
        # Elasticsearch nodes
         aws.tags = {
-          :node_type => 'elasticsearch'
+          :node_type => 'elasticsearch',
+          :Name => name
         }
 
         # Ubuntu LTS 12.04 in us-west-2 with Puppet installed from the Puppet
