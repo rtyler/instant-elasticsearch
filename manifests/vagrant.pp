@@ -35,7 +35,13 @@ node /^.*elasticsearch\d+$/ inherits default {
   class {
     'apt':
       always_apt_update => true;
+  }
 
+  Package {
+    require => Class['apt']
+  }
+
+  class {
     'elasticsearch':
       ensure       => present,
       manage_repo  => true,
