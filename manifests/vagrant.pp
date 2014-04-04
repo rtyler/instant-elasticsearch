@@ -66,7 +66,7 @@ node /^.*elasticsearch\d+$/ inherits default {
   }
 
   elasticsearch::plugin {
-    'elasticsearch/elasticsearch-cloud-aws/2.0.0.RC1':
+    'elasticsearch/elasticsearch-cloud-aws/2.1.0':
       ensure     => present,
       module_dir => 'cloud-aws';
   }
