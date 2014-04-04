@@ -31,9 +31,11 @@ node default {
 }
 
 node /^.*elasticsearch\d+$/ inherits default {
-  include apt
 
   class {
+    'apt':
+      always_apt_update => true;
+
     'elasticsearch':
       ensure       => present,
       manage_repo  => true,
