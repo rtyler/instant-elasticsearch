@@ -39,7 +39,7 @@ node /^.*elasticsearch\d+$/ inherits default {
     'elasticsearch':
       ensure       => present,
       manage_repo  => true,
-      repo_version => '1.0',
+      repo_version => '1.1',
       java_install => true,
       config       => {
         cloud => {
