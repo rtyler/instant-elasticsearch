@@ -1,7 +1,7 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
-    elasticsearch/elasticsearch (0.2.4)
+    elasticsearch/elasticsearch (0.3.0)
       puppetlabs/stdlib (>= 3.2.0)
     puppetlabs/apt (1.4.2)
       puppetlabs/stdlib (>= 2.2.1)
