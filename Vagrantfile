@@ -20,8 +20,8 @@ Vagrant.configure("2") do |config|
 
   # Change this number up/down to create a bigger or smaller ES cluster
   3.times do |number|
-    name = "elasticsearch#{name}"
-    
+    name = "elasticsearch#{number}"
+
     config.vm.define(name) do |node|
       node.vm.provider :aws do |aws, override|
         aws.access_key_id = access_key_id
