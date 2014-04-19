@@ -13,6 +13,9 @@ Create the following files:
  * `.vagrant_keypair_name` - Name of a Keypair already configured in AWS
 
 
+**Note:** This requires Ruby 2.0 or later to be the default Ruby that you're
+using
+
 Then blindly run the following commands in your terminal:
 
 ```bash
