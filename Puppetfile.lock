@@ -1,6 +1,8 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    elasticsearch/elasticsearch (0.3.1)
+      puppetlabs/stdlib (>= 3.2.0)
     puppetlabs/apt (1.4.2)
       puppetlabs/stdlib (>= 2.2.1)
     puppetlabs/firewall (1.0.2)
@@ -8,16 +10,8 @@ FORGE
       puppetlabs/stdlib (>= 0.1.6)
     puppetlabs/stdlib (4.1.0)
 
-GIT
-  remote: git://github.com/rtyler/puppet-elasticsearch.git
-  ref: master
-  sha: a32d359a3e2e41ca8f46c97fc0f8378f09e4f9d2
-  specs:
-    elasticsearch/elasticsearch (0.3.0)
-      puppetlabs/stdlib (>= 3.2.0)
-
 DEPENDENCIES
-  elasticsearch/elasticsearch (>= 0)
+  elasticsearch/elasticsearch (~> 0.3.1)
   puppetlabs/apt (>= 0)
   puppetlabs/firewall (>= 0)
   puppetlabs/ntp (>= 0)
