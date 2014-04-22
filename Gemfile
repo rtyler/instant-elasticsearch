@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :development do
   gem 'vagrant', :github => 'mitchellh/vagrant',
-                 :ref => 'v1.5.1',
+                 :ref => 'v1.5.3',
                  :platform => :mri
 end
 

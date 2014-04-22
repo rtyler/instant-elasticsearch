@@ -8,15 +8,15 @@ GIT
 
 GIT
   remote: git://github.com/mitchellh/vagrant.git
-  revision: 6977e93ba98fd19112b1fed74dafb8619f581984
-  ref: v1.5.1
+  revision: 8c05b08fddb9358351d8652cd089aba4ec71cbbb
+  ref: v1.5.3
   specs:
-    vagrant (1.5.1)
+    vagrant (1.5.3)
       bundler (~> 1.5.2)
       childprocess (~> 0.5.0)
       erubis (~> 2.7.0)
       i18n (~> 0.6.0)
-      listen (~> 2.4.0)
+      listen (~> 2.7.1)
       log4r (~> 1.1.9, < 1.1.11)
       net-scp (~> 1.1.0)
       net-ssh (>= 2.6.6, < 2.8.0)
@@ -29,7 +29,10 @@ GEM
     builder (3.2.2)
     celluloid (0.15.2)
       timers (~> 1.1.0)
-    childprocess (0.5.1)
+    celluloid-io (0.15.0)
+      celluloid (>= 0.15.0)
+      nio4r (>= 0.5.0)
+    childprocess (0.5.2)
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
     erubis (2.7.0)
@@ -60,8 +63,9 @@ GEM
       json
       librarian (>= 0.1.2)
       open3_backport
-    listen (2.4.1)
+    listen (2.7.1)
       celluloid (>= 0.15.2)
+      celluloid-io (>= 0.15.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     log4r (1.1.10)
@@ -71,6 +75,7 @@ GEM
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.7.0)
+    nio4r (1.0.0)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
     open3_backport (0.0.3)
