@@ -69,6 +69,10 @@ node /^.*elasticsearch\d+$/ inherits default {
     'elasticsearch/elasticsearch-cloud-aws/2.1.0':
       ensure     => present,
       module_dir => 'cloud-aws';
+
+    'elasticsearch/marvel/latest':
+      ensure     => present,
+      module_dir => 'marvel';
   }
 
   firewall {
