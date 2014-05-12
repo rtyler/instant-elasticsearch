@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 group :development do
   gem 'vagrant', :github => 'mitchellh/vagrant',
-                 :ref => 'v1.5.3',
+                 :ref => 'v1.6.2',
                  :platform => :mri
 end
 
@@ -16,6 +16,5 @@ end
 # Vagrant plugins
 group :plugins do
   gem 'vagrant-aws', :github => 'mitchellh/vagrant-aws',
-                     :ref => 'v0.4.1',
                      :platform => :mri
 end
