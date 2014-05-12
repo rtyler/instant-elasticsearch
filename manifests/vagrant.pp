@@ -70,7 +70,7 @@ node /^.*elasticsearch\d+$/ inherits default {
       ensure     => present,
       module_dir => 'cloud-aws';
 
-    'elasticsearch/marvel/latest':
+    'elasticsearch/marvel/1.1.1':
       ensure     => present,
       module_dir => 'marvel';
   }
